@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Ebac</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <form id="form-ebac">
+        <h1>Formulário Ebac</h1>
+        <h2>Preencha os campos abaixo:</h2>
+        <p>(O campo "A" deve ser menor que "B")</p>    
+        <input type="number" id="campoA" required placeholder="Campo A">
+        <input type="number" id="campoB" required placeholder="Campo B">       
+        <p class="errorMessage"></p>
+        <button type="submit">ENVIAR</button>
+        <p class="successMessage"></p>
+        </form>
+        
+    </div>
+    <script src="main.JS"></script>
+</body>
+</html>

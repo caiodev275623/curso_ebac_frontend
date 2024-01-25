@@ -1,0 +1,83 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, p{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 7px;
+} 
+
+p{
+    font-size: 10px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30;
+}
+
+.container {
+    margin: 10px;
+    max-width: 640px;
+    margin-bottom: 10px;
+    margin-left: 550px;
+    width: 100%;
+}
+
+form{
+    margin-top: 50px;
+}
+
+input{
+    display: block;
+    padding: 5px;
+}
+
+input, button {
+    display: block;
+    padding: 6px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    resize: none;
+}
+
+button  {
+    background-color: rgb(35, 107, 190);
+    border: none;
+    border-radius: 8px;
+    color: aliceblue;
+}
+
+button:hover {
+    background-color: rgb(40, 49, 185);
+}
+
+.errorMessage {
+    margin-bottom: 8px;
+    background-color: red;
+    color: rgb(225, 227, 230);
+}
+
+input.error {
+    color: red;
+    border-color: red;
+    outline-color: red;
+}
+
+.successMessage{
+    margin-bottom: 8px;
+    background-color: rgb(42, 175, 42);
+    color:rgb(225, 227, 230);
+}
+
